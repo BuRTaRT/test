@@ -1,0 +1,80 @@
+.about-us {
+  margin-top: 122px;
+}
+.about-us-wrapper{
+  padding-bottom: 120px;
+}
+.about-us__skills {
+  margin-top: 61px;
+  letter-spacing: 0.5px;
+}
+
+.about-us__header {
+  font-family: Lato-Bold;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+
+}
+
+.about-us__paragraph {
+  font-size: 14px;
+  font-family: Lato-Regular;
+  margin-top: 20px;
+  margin-top: 46px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+
+}
+
+.about-us__paragraph--custom-color {
+  color: #7f7f7f;
+  margin-top: 20px;
+  font-family: Lato-Regular;
+  font-size: 14px;
+}
+.about-us__progress-bar-container{
+  border: 1px solid gray;
+  padding: 1px;
+  margin-bottom: 39px;
+}
+
+.progress {
+  height: 3px;
+}
+
+.about-us__skill-name{
+  display: flex;
+  justify-content:space-between;
+  font-family: Lato-Bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 15px;
+
+}
+.about-us__img-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0 auto;
+
+}
+.about-img__img{
+  position: relative;
+  top: 6px;
+  left:13px;
+}
+@media(max-width: 1170px){
+  .about-us__img-block{
+    margin: 0 auto;
+  }
+  .about-us{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about-img__img{
+    position: static;
+    margin: 0 auto;
+  }
+}
