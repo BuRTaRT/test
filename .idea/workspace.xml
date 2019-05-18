@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eaf792bd-f3b9-4fae-a1e0-6cb2123f5a0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/scripts/myScripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/styles/sections/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/styles/sections/mob-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/styles/sections/our-products.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/CarouselRandomInterval.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/CarouselRandomInterval.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/global/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/global/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/sections/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/sections/about-us.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/sections/choose-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/sections/choose-us.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/sections/get-in-touch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/sections/get-in-touch.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/sections/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/sections/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/sections/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/sections/hero.scss" afterDir="false" />
-    </list>
+    <list default="true" id="eaf792bd-f3b9-4fae-a1e0-6cb2123f5a0a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -44,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/sections/hero.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/scripts/CarouselRandomInterval.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -239,12 +232,12 @@
       <workItem from="1557842313476" duration="4007000" />
       <workItem from="1557928618586" duration="412000" />
       <workItem from="1557929426790" duration="83360000" />
-      <workItem from="1558088133080" duration="52588000" />
+      <workItem from="1558088133080" duration="53116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140367000" />
+    <option name="totallyTimeSpent" value="140895000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,7 +252,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15476191" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15476191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Gulp" order="3" side_tool="true" />
@@ -273,7 +266,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49925596" visible="true" weight="0.27986908" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49925596" visible="true" weight="0.27986908" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.27986908" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -394,13 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/scripts/CarouselRandomInterval.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="61" selection-start-line="61" selection-end-line="67" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/sections/mob-menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108">
@@ -474,6 +460,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scripts/CarouselRandomInterval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
         </state>
       </provider>
     </entry>
