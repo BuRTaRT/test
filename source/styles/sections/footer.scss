@@ -1,0 +1,26 @@
+footer{
+  height: 60px;
+  background-color: #1a1a1a;
+}
+.footer__container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.footer__copyright{
+  font-family: Lato-Regular;
+  font-size: 16px;
+  color: #7a7a7a;
+  margin-left: 30px;
+
+}
+.footer__social {
+  margin-right: 30px;
+
+}
+.footer__social i{
+  margin-right: 16px;
+  font-size: 18px;
+}

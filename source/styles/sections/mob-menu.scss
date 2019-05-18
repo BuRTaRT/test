@@ -1,0 +1,28 @@
+.mob-menu {
+  margin-top: 70px;
+  position: fixed;
+  margin: 0 auto;
+  z-index: 100;
+  width: 100%;
+  background-color: rgba(0,0,0,.2);
+
+  &__li {
+    text-align: center;
+  }
+
+  &__link {
+    display: block;
+    font-size: 22px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+
+  &__link:hover {
+    text-decoration: none;
+    color: $split;
+  }
+}

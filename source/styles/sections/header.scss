@@ -4,11 +4,12 @@
   display: flex;
   align-items: center;
   position: fixed;
-  top:0;
+  top: 0;
   z-index: 100;
   margin: 0 auto;
   left: 0;
   right: 0;
+
   &__logo-text {
     font-family: beyno;
     font-size: 25px;
@@ -22,6 +23,11 @@
     & .custom-color {
       color: $split;
     }
+  }
+
+  .active {
+    border-bottom: 2px solid $split;
+
   }
 
   &__nav {
@@ -39,23 +45,125 @@
     list-style: none;
     margin-right: 62px;
   }
+
+  &__li a {
+    padding: 30px 0;
+  }
+
   &__li:last-child {
     margin-right: 21px;
   }
+
   &__link {
     color: black;
     text-decoration: none;
     font-size: 16px;
     font-family: Lato-Regular;
   }
-  &__link:hover{
+
+  &__link:hover {
     text-decoration: none;
     color: black;
   }
-  &__search{
+
+  &__search {
     width: 180px;
   }
 
+}
+
+.header__search {
+  border: 0;
+  background-color: #e8e4f1;
+  padding: 5px;
+  position: relative;
+  width: 110%;
+  margin-left: -5px;
+}
+
+
+.header__li {
+  position: relative;
+
+}
+
+.highlight {
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, -40px -40px 20px rgba(206, 89, 55, 0);
+}
+
+
+.fa-search {
+  position: absolute;
+  top: 6px;
+  right: 32px;
+}
+
+
+.header__li ul {
+  border-top: 2px solid yellow;
+  margin: 0;
+  position: absolute;
+  top: 47px;
+  display: none;
+
+}
+
+.header__ul li:hover > ul {
+  display: block;
+}
+
+.header__li li {
+  list-style: none;
+  position: relative;
+}
+
+.header__li li:first-child a {
+  padding-top: 20px;
+}
+
+.header__li li > ul {
+  position: absolute;
+  left: 185px;
+  top: 0;
+}
+
+.header__li li a {
+  display: block;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 8px;
+  padding-left: 15px;
+  min-width: 185px;
+  text-decoration: none;
+  color: white;
+  font-family: Lato-Regular;
+  font-size: 16px;
+}
+
+.header__ul li:hover > ul {
+  display: block;
+}
+
+.header__li li a:before {
+  content: ">";
+  position: relative;
+  left: -5px;
+
+}
+
+.header__li li a:after {
+  content: ">";
+  position: absolute;
+  left: 3px;
+  display: none;
+
+}
+
+.header__li li:hover > a:after {
+  display: inline;
+}
+
+.header__li li a:hover {
+  color: yellow;
 }
 
 .header-row {
@@ -63,3 +171,21 @@
   align-items: center;
 }
 
+@media(max-width: 1024px) {
+  .header__logo-text {
+    position: static;
+
+  }
+  .header__nav {
+    display: none;
+  }
+  .burger {
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 500px) {
+  .header__search, .fa-search {
+    display: none;
+  }
+}

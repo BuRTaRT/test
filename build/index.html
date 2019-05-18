@@ -13,40 +13,64 @@
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
-	/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="main.min.css"/>
 </head>
-<body>
+<body data-spy="scroll" data-target="#nav-bar" data-offset="70">
 <header class="header">
 	<div class="container">
 		<div class="row header-row">
 			<div class="header__logo col-2">
 				<span class="header__logo-text">up<span class="custom-color">qode</span></span>
 			</div>
-			<nav class="header__nav col-8" id="menu">
-				<ul class="header__ul">
-					<li class="header__li"><a class="header__link" href="#hero">Home</a></li>
-					<li class="header__li">
-						<a class="header__link" href="">Products</a>
+			<nav class="header__nav col-8" id="nav-bar">
+				<ul class="header__ul nav">
+					<li class="header__li active"><a class="header__link" href="#hero">Home</a></li>
+					<li class="header__li ">
+						<a class="header__link" href="#our-products">Products</a>
+						<ul>
+							<li><a href="">item1</a></li>
+							<li><a href="">item2</a></li>
+							<li><a href="">shoes</a>
+								<ul>
+									<li><a href="">item1</a></li>
+									<li><a href="">man shoes</a></li>
+									<li><a href="">item3</a></li>
+									<li><a href="">item4</a></li>
+								</ul>
+							</li>
+							<li><a href="">item4</a></li>
+						</ul>
 					</li>
-					<li class="header__li"><a class="header__link" href="#about-us">About</a></li>
-					<li class="header__li">
-						<a class="header__link" href="#get-in-touch">Contact</a>
+					<li class="header__li" ><a class="header__link" href="#about-us">About</a></li>
+					<li class="header__li" id="contact-link">
+						<a class="header__link"  href="#get-in-touch">Contact</a>
 					</li>
 				</ul>
 			</nav>
-			<input class="header__search col-2" type="text"/>
+			<div class="header__search-wrap offset-6 offset-lg-0 col-2"><input class="header__search" type="text"><i class="fas fa-search"></i></div>
+			<i class="burger d-lg-none ml-3 fas fa-bars"></i>
 		</div>
 	</div>
 </header>
 <main class="main">
+	<div class="mob-menu d-none d-lg-none" id="mob-menu">
+		<ul class="mob-menu__ul">
+			<li class="mob-menu__li"><a class="mob-menu__link" href="#hero">Home</a></li>
+			<li class="mob-menu__li"><a class="mob-menu__link" href="#our-products">Products</a></li>
+			<li class="mob-menu__li"><a class="mob-menu__link" href="#about-us">about</a></li>
+			<li class="mob-menu__li"><a class="mob-menu__link" href="#get-in-touch">contacts</a></li>
+		</ul>
+	</div>
 	<div class="hero" id="hero">
 		<div class="hero__text-wrap">
 			<h1 class="hero__header">Creative <span class="hero-custom-color"> design agency </span></h1>
-			<div class="hero__text">enean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec
-				id
-				elit <br> non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.
+			<div class="hero__text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec
+				id elit <br> non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.
 			</div>
 		</div>
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -79,9 +103,6 @@
 			</a>
 		</div>
 	</div>
-
-
-	</div>
 	<div class="choose-us_wrapper">
 		<div class="container">
 			<div class="row">
@@ -95,10 +116,15 @@
 					<div class="choose-us__titles">
 						<div class="choose-us__title ">
 							<i class="fa fa-heart-o choose-us__img"></i>
-							<h3 class="choose-us__name">your title</h3>
-							<p class="choose-us__text">Duis bibendum diam <br> non erat facilaisis en ter <br>
-								tincidunt.
-								Duis </p>
+							<div class="choose-us__see-more">
+								<div class="choose-us__see-more-text">see more</div>
+								<div class="choose-us__icon-container">
+									<i class="fas fa-link"></i>
+									<i class="fas fa-search-plus"></i>
+
+								</div>
+							</div>
+
 						</div>
 						<div class="choose-us__title ">
 							<i class="fa fa-commenting-o choose-us__img"></i>
@@ -133,7 +159,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="ppc"></div>
+	<div class="our-products" id="our-products">
+	</div>
 	<div class="about-us-wrapper" id="about-us">
 		<div class="container p-0">
 			<div class="row">
@@ -158,7 +185,8 @@
 							</div>
 							<div class="about-us__progress-bar-container">
 								<div class="progress">
-									<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0"
+									<div class="progress-bar" data-value="79" role="progressbar"
+										 aria-valuenow="0"
 										 aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
@@ -168,7 +196,8 @@
 							</div>
 							<div class="about-us__progress-bar-container">
 								<div class="progress">
-									<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0"
+									<div class="progress-bar" data-value="90" role="progressbar"
+										 aria-valuenow="0"
 										 aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
@@ -179,7 +208,8 @@
 							</div>
 							<div class="about-us__progress-bar-container">
 								<div class="progress">
-									<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0"
+									<div class="progress-bar" data-value="69" role="progressbar"
+										 aria-valuenow="0"
 										 aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
@@ -190,20 +220,20 @@
 							</div>
 							<div class="about-us__progress-bar-container">
 								<div class="progress">
-									<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0"
+									<div class="progress-bar" data-value="92" role="progressbar"
+										 aria-valuenow="0"
 										 aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="about-us__img-block col-xl-6">
+				<div class="about-us__img-block col-12 col-xl-6">
 					<img class="about-img__img" src="img/ipad.png" alt="">
 				</div>
 			</div>
 
 		</div>
-	</div>
 	</div>
 	<div class="get-in-touch" id="get-in-touch">
 		<h2 class="get-in-touch__header">get in <span class="custom-color">touch</span></h2>
@@ -215,21 +245,21 @@
 
 			<div class="get-in-touch-map">
 				<div id="map"></div>
-				<div class="get-in-touch__form">
+				<form class="get-in-touch__form">
 					<div class="get-in-touch__inputs">
-						<input placeholder="Full Name" class="form-elem" type="text">
-						<select class="form-elem" name="" id="">
-							<option value="Some-name@gmail.com">E-mail adress</option>
-							<option value="Some-name@gmail.com">Some-name@gmail.com</option>
-							<option value="Some-name@gmail.com">Some-name@gmail.com</option>
+						<input placeholder="Full Name " class="form-elem checkBeforeSubmit" type="text">
+						<select class="form-elem checkBeforeSubmit" name="" id="">
+							<option value="">E-mail adress</option>
+							<option value="2">Some-name@gmail.com</option>
+							<option value="3">Some-name@gmail.com</option>
 						</select>
-						<input class="big-inp" placeholder="Message" class="">
+						<input class="big-inp checkBeforeSubmit" placeholder="Message">
 						<div class="check-container">
 							<label for="inp"><input id="inp" type="checkbox"><span class="checkmark"></span> I like your
 								company
 							</label>
 
-							<input class="get-in-touch__btn" type="button" value="Send">
+							<input class="get-in-touch__btn" type="submit" value="Send">
 						</div>
 					</div>
 					<div class="get-in-touch__contacts">
@@ -242,14 +272,22 @@
 						<p>company@mail.com
 							sales@mail.com</p>
 					</div>
-
-
-				</div>
+				</form>
 			</div>
 		</div>
 	</div>
-	</div>
 </main>
+<footer class="footer">
+	<div class="footer__container">
+		<div class="footer__copyright">Copyright © Company. All Rights Reserved 2016</div>
+		<div class="footer__social">
+			<i style="color: #6782b8" class="fab fa-facebook-f"></i>
+			<i style="color: #f07156;" class="fab fa-glide-g"></i>
+			<i style="color: #71d6fa" class="fab fa-twitter"></i>
+			<i style="color: #e9779d" class="fas fa-basketball-ball"></i>
+		</div>
+	</div>
+</footer>
 
 <script
 		src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -265,20 +303,9 @@
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"
 ></script>
-<script src="scripts/CarouselRandomInterval.js"></script>
 <script src="scripts/customMap.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByBrwzAiP62sBh_OS-GUt0Tb64V0ujXAY&callback=initMap"
 		async defer></script>
-<script>
-    $(document).ready(function () {
-        $("#menu").on("click", "a", function (event) {
-            event.preventDefault()
-            var id = $(this).attr('href'),
-                top = $(id).offset().top;
-            $('body,html').animate({scrollTop: top}, 1200);
-
-        })
-    })
-</script>
+<script src="scripts/myScripts.js"></script>
 </body>
 </html>

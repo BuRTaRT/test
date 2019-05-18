@@ -68,6 +68,8 @@
 @media(max-width: 1170px){
   .about-us__img-block{
     margin: 0 auto;
+    object-fit: contain;
+    max-width: 100%;
   }
   .about-us{
     margin: 0 auto;
@@ -76,5 +78,11 @@
   .about-img__img{
     position: static;
     margin: 0 auto;
+    object-fit: scale-down;
+  }
+}
+@media(max-width: 400px){
+  .about-img__img{
+    width: 300px;
   }
 }
