@@ -77,11 +77,10 @@ else if(contactLink.classList.contains("highlight")){
 document.querySelector(".get-in-touch__btn").onclick = function (e) {
     let arr = document.querySelectorAll(".checkBeforeSubmit");
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i].value != "") {
-            break;
-        } else if (i == arr.length - 1) {
-            alert("can't send empty form")
+        if (arr[i].value == "") {
             e.preventDefault()
+            alert("Please fill all of the fields");
+            break;
         }
     }
 
