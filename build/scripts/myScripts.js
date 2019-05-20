@@ -6,7 +6,7 @@ $(document).ready(function () {
         for (let key of array) {
             $(key).on("click", "a", function (event) {
                 event.preventDefault();
-                var id = $(this).attr('href'),
+                let id = $(this).attr('href'),
                     top = $(id).offset().top;
                 if (top != "" || top != "#") {
                     $('body,html').animate({scrollTop: top}, 800);
@@ -50,7 +50,7 @@ else if(contactLink.classList.contains("highlight")){
 }
 
 
-    var winScrollTop = $(this).scrollTop();
+    let winScrollTop = $(this).scrollTop();
     if (winScrollTop > scrollToElem && counter < 1) {
         counter++;
 
