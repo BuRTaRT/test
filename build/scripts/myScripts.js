@@ -11,7 +11,6 @@ $(document).ready(function () {
                 if (top != "" || top != "#") {
                     $('body,html').animate({scrollTop: top}, 800);
                 }
-
             });
         }
     }
@@ -69,12 +68,12 @@ else if(contactLink.classList.contains("highlight")){
             }
         }
 
-        fill(document.querySelectorAll(".progress-bar"))
+        fill($(".progress-bar"))
     }
 })
 
 // ckeking form elems before submit
-document.querySelector(".get-in-touch__btn").onclick = function (e) {
+$(".get-in-touch__btn").on("click", function (e) {
     let arr = document.querySelectorAll(".checkBeforeSubmit");
     for (let i = 0; i < arr.length; i++) {
         if (arr[i].value == "") {
@@ -84,4 +83,4 @@ document.querySelector(".get-in-touch__btn").onclick = function (e) {
         }
     }
 
-}
+})
