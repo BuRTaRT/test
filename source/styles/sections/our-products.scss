@@ -1,3 +1,70 @@
 .our-products {
-  height: 950px;
+  margin-top: 100px;
+}
+
+.our-products {
+  max-width: 100%;
+  display: flex;
+}
+.our-products-wrapper{
+  background-image: url("img/polygon.png");
+}
+.overlay {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  font-family: Lato-Bold;
+  font-size: 2vw;
+  left: 50%;
+  transform: translate(-8vw,-2.2vw);
+  top: 50%;
+}
+.overlay-text span{
+  color: #ffff00;
+}
+.overlay-img {
+  max-width: 100%
+}
+
+.our-products_products {
+  display: flex;
+  margin-top: 115px;
+  flex-wrap: wrap;
+
+}
+
+.our-products_product {
+  margin-bottom: 105px;
+}
+
+.our-product_product-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.our-product-items {
+  margin-left: 20px;
+}
+
+.our-product-title {
+  text-transform: uppercase;
+  font-family: Lato-Heavy;
+  font-size: 24px;
+}
+
+.our-product-name {
+  font-family: Lato-Regular;
+  font-size: 16px;
+  color: #5a3e98;
+}
+
+.our-product-text {
+  font-family: Lato-Light;
+  font-size: 14px;
+  color: gray;
 }
