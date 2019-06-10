@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/sections/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/sections/about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/styles/sections/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/sections/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/styles/sections/our-products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/sections/our-products.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="163" column="30" selection-start-line="163" selection-start-column="30" selection-end-line="163" selection-end-column="30" />
+            <state relative-caret-position="180">
+              <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#1;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,28 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/styles/sections/our-products.scss">
+        <entry file="file://$PROJECT_DIR$/source/styles/sections/choose-us.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/styles/sections/about-us.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/styles/common/colors.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="1566">
+              <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -89,14 +71,14 @@
         <option value="$PROJECT_DIR$/source/styles/sections/choose-us.scss" />
         <option value="$PROJECT_DIR$/source/styles/sections/get-in-touch.scss" />
         <option value="$PROJECT_DIR$/source/styles/sections/footer.scss" />
-        <option value="$PROJECT_DIR$/source/styles/sections/header.scss" />
         <option value="$PROJECT_DIR$/source/styles/sections/hero.scss" />
         <option value="$PROJECT_DIR$/source/styles/sections/mob-menu.scss" />
         <option value="$PROJECT_DIR$/build/scripts/myScripts.js" />
         <option value="C:/art/Новая папка (2)/training.html" />
-        <option value="$PROJECT_DIR$/build/index.html" />
-        <option value="$PROJECT_DIR$/source/styles/sections/our-products.scss" />
         <option value="$PROJECT_DIR$/source/styles/sections/about-us.scss" />
+        <option value="$PROJECT_DIR$/source/styles/sections/our-products.scss" />
+        <option value="$PROJECT_DIR$/source/styles/sections/header.scss" />
+        <option value="$PROJECT_DIR$/build/index.html" />
       </list>
     </option>
   </component>
@@ -193,12 +175,12 @@
       <workItem from="1558372236668" duration="4945000" />
       <workItem from="1558960706966" duration="1984000" />
       <workItem from="1559974061011" duration="605000" />
-      <workItem from="1559981433162" duration="5824000" />
+      <workItem from="1559981433162" duration="9924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160799000" />
+    <option name="totallyTimeSpent" value="164899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,7 +209,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49925596" visible="true" weight="0.20130932" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49925596" visible="true" weight="0.11456628" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.27986908" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -340,13 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/sections/choose-us.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/main.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -364,13 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/sections/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="178" column="1" selection-start-line="178" selection-start-column="1" selection-end-line="180" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/scripts/myScripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -385,6 +353,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/sections/about-us.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/common/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -392,30 +367,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/sections/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/sections/our-products.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/sections/choose-us.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="163" column="30" selection-start-line="163" selection-start-column="30" selection-end-line="163" selection-end-column="30" />
+        <state relative-caret-position="180">
+          <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#i#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#2;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#3;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/sections/our-products.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/sections/about-us.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>

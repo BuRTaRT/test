@@ -176,16 +176,8 @@
     position: static;
 
   }
-  .header__nav {
-    display: none;
-  }
   .burger {
     font-size: 30px;
   }
 }
 
-@media(max-width: 500px) {
-  .header__search, .fa-search {
-    display: none;
-  }
-}
